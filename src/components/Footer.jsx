@@ -2,8 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-dark text-white text-center py-3">
-      © 2025 Infotech – Student Dashboard
+    <footer>
+        © 2025 All Rights Reserved <br />
+      Design & Developed by Uday Sawant
     </footer>
   );
 }

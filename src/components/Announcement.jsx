@@ -11,9 +11,7 @@ class Announcement extends Component {
   render() {
     return (
       <div className="container mb-4">
-        <div className="alert alert-info text-center">
-          {this.state.announcement}
-        </div>
+        <div className="alert alert-info">{this.state.announcement}</div>
       </div>
     );
   }
